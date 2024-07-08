@@ -2,7 +2,7 @@
 using namespace std;
 int Find_Integer_Part (int n) {
     int start = 0;
-    int end = n - 1;
+    int end = n;
     long long int ans = 0;
     while (start <= end) {
         long long int mid = start + (end - start) / 2;
